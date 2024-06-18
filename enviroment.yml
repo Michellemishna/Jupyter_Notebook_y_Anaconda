@@ -1,0 +1,10 @@
+name: py310
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - conda[version='>=24.3.0']
+  - mamba[version='>=1.5.8']
+  - ipykernel
+prefix: /home/unixx/miniforge3

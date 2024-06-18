@@ -5,13 +5,13 @@ Los paquetes que use en este codigo estan listados en el archivo requirements.ym
 Para instalar los requisitos usando conda, ejecute lo siguiente en la línea de comandos:
 
 ```sh
-conda install --file requirements.yml
+conda install --file enviroment.yml
 ```
 
 Para crear un entorno independiente llamado py310 con Python 3.10 y todas las versiones de paquetes requeridas, ejecute lo siguiente:
 
 ```sh
-conda create -n py310 python=3.10 --file requirements.txt
+conda create -n py310 python=3.10 --file enviroment.yml
 ```
 
 Ahora al seleccionar cada hoja te aparecera una opcion "Select Kernel"
